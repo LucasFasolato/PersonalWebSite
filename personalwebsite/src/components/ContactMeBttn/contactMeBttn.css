@@ -1,0 +1,25 @@
+.s1_button {
+  display: block;
+  margin: auto 0;
+  width: 30%;
+  height: 90%;
+  border-radius: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #cccccc;
+  background-color: #212121;
+  border: 3px solid #cccccc;
+}
+
+.s1_button:hover {
+  color: #ffffff;
+  background-color: #212121;
+  border: 3px solid #ffffff;
+}
+
+@media screen and (max-width: 1265px) {
+  .s1_button {
+    width: 45%;
+  }
+}
