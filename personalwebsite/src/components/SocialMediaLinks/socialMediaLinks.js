@@ -19,7 +19,6 @@ function socialMediaLinks() {
         <section className='social_box'>
             <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
         </section>
-        
     </div>
   )
 }

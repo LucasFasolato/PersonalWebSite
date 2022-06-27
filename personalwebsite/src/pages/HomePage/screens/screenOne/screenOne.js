@@ -23,8 +23,11 @@ function screenOne() {
                     <p className='s1_desc-p'>
                       Soy un desarrollador Full Stack con orientacion al Front-end con la capacidad de desarrollar proyectos web 
                       teniendo siempre en cuenta que sean escalables y modularizables para asi poder construir en equipo.
-                      Me considero un desarrollador con una logica muy avanzada y veloz. Capaz de enfrentar y resolver problemas con seriedad y disciplina. 
-                      Especialmente un desarrollador con ganas de colaborar, enseñar y sobretodo aprender de los demas.
+                      <span className='s1_desc-span'>
+                        Me considero un desarrollador con una logica muy avanzada y veloz. Capaz de enfrentar y resolver problemas con seriedad y disciplina. 
+                        Especialmente un desarrollador con ganas de colaborar, enseñar y sobretodo aprender de los demas.
+                      </span>
+                      
                     </p>
                   </div> 
                 </div>

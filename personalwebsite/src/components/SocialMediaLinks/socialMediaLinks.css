@@ -1,6 +1,20 @@
 .social_content {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   background-color: orange;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.social_box {
+  height: 100%;
+  width: 56px;
+}
+
+@media screen and (max-width: 1175px) {
+  .social_box {
+    height: 100%;
+    width: 48px;
+  } 
 }
