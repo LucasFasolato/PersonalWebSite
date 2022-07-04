@@ -15,8 +15,9 @@ function screenOne() {
                 <div className='s1_name-and-desc'>
                   <div className='s1_name-content'>
                     <section className='s1_name-section'>
-                      <h1 className='s1_h1'>Hello</h1>
-                      <h2 className='s1_h2'>I'm Lucas Fasolato</h2> 
+                      <h3 className='s1_h3'>Hello, I'm</h3>
+                      <h2 className='s1_h2'>Lucas Fasolato</h2>                      
+                      <h1 className='s1_h1'>Full Stack Developer</h1> 
                     </section>
                   </div> 
                   <div className='s1_desc-content'>

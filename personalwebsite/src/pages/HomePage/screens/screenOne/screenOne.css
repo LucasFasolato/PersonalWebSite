@@ -69,9 +69,9 @@ h6 {
   background-color: blue;
 }
 
-.s1_h1 {
+.s1_h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 76px;
+  font-size: 32px;
   font-weight: 600;
   margin: auto;
   padding: 0;
@@ -81,11 +81,21 @@ h6 {
 
 .s1_h2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 80px;
+  font-size: 72px;
   font-weight: 700;
   margin: auto;
   padding: 0;
   background-color: red;
+  height: max-content;
+}
+
+.s1_h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  margin: auto;
+  padding: 0;
+  background-color: goldenrod;
   height: max-content;
 }
 .s1_desc-content {
@@ -214,9 +224,9 @@ h6 {
 }
 
 @media screen and (max-width: 920px) {
-  .s1_h1 {
+  .s1_h3 {
     font-family: "Open Sans", sans-serif;
-    font-size: 64px;
+    font-size: 24px;
     font-weight: 600;
     margin: auto;
     padding: 0;
@@ -225,13 +235,10 @@ h6 {
   }
 
   .s1_h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 72px;
-    font-weight: 700;
-    margin: auto;
-    padding: 0;
-    background-color: red;
-    height: max-content;
+    font-size: 56px;
+  }
+  .s1_h1 {
+    font-size: 56px;
   }
 
   /* .s1_left {
@@ -244,11 +251,14 @@ h6 {
 }
 
 @media screen and (max-width: 830px) {
-  .s1_h1 {
-    font-size: 48px;
+  .s1_h3 {
+    font-size: 16px;
   }
 
   .s1_h2 {
+    font-size: 56px;
+  }
+  .s1_h1 {
     font-size: 56px;
   }
   .s1_left {
@@ -265,15 +275,17 @@ h6 {
   }
 }
 
-@media screen and (max-width: 650px) {
-  .s1_h1 {
-    font-size: 32px;
+@media screen and (max-width: 715px) {
+  .s1_h3 {
+    font-size: 16px;
   }
 
   .s1_h2 {
     font-size: 48px;
   }
-
+  .s1_h1 {
+    font-size: 48px;
+  }
   .s1_button-content {
     width: 80vw;
   }
@@ -282,7 +294,7 @@ h6 {
   }
 
   .s1_desc-span {
-    display:none;
+    display: none;
   }
 
   .s1_left {
@@ -300,12 +312,15 @@ h6 {
   }
 }
 
-@media screen and (max-width: 555px) {
-  .s1_h1 {
-    font-size: 24px;
+@media screen and (max-width: 610px) {
+  .s1_h3 {
+    font-size: 16px;
   }
 
   .s1_h2 {
+    font-size: 32px;
+  }
+  .s1_h1 {
     font-size: 32px;
   }
 
