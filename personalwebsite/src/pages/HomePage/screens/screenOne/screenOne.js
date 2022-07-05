@@ -3,7 +3,7 @@ import Navbar from '../../../../components/Navbar/navbar'
 import './screenOne.css'
 import ContactMeBttn from '../../../../components/ContactMeBttn/contactMeBttn'
 import SocialMediaLinks from '../../../../components/SocialMediaLinks/socialMediaLinks'
-import PhotoPerfil from './../../../../components/Imgs/PhotoPerfil.JPG'
+import PhotoPerfil from './../../../../components/Imgs/PhotoPerfil.png'
 
 function screenOne() {
   return (
@@ -22,13 +22,13 @@ function screenOne() {
                   </div> 
                   <div className='s1_desc-content'>
                     <p className='s1_desc-p'>
-                      Soy un desarrollador Full Stack con orientacion al Front-end con la capacidad de desarrollar proyectos web 
-                      teniendo siempre en cuenta que sean escalables y modularizables para asi poder construir en equipo.
+                      I am a Full Stack developer with a Front-end orientation with the ability to develop web projects 
+                      always keeping in mind that they are scalable and modularizable to build as a team.
                       <span className='s1_desc-span'>
-                        Me considero un desarrollador con una logica muy avanzada y veloz. Capaz de enfrentar y resolver problemas con seriedad y disciplina. 
-                        Especialmente un desarrollador con ganas de colaborar, enseñar y sobretodo aprender de los demas.
+                        I consider myself a developer with very advanced and fast logic. 
+                        Able to face and solve problems with seriousness and discipline. 
+                        Especially a developer who wants to collaborate, teach and above all learn from others.
                       </span>
-                      
                     </p>
                   </div> 
                 </div>
@@ -37,7 +37,9 @@ function screenOne() {
                   <div className='s1_button-content'>
                     <ContactMeBttn/>
                   </div>
-                  <div className='s1_social-content'><SocialMediaLinks/> </div>
+                  <div className='s1_social-content'>
+                    <SocialMediaLinks/> 
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,6 +3,7 @@
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: none;
 }
 
 .logo_button {
@@ -11,9 +12,13 @@
   padding: 0;
   margin: 0;
   overflow: hidden;
+  background-color: #25262a;;
+  border: none;
+  cursor: pointer;
 }
 
 .logo_img {
   height: 100%;
   width: auto;
+  background-color: none;
 }

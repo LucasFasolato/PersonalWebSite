@@ -5,19 +5,19 @@ function socialMediaLinks() {
   return (
     <div className='social_content'>
         <section className='social_box'>
-            <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
+            <LogoSM nameLogo="Facebook" imgAlt="Facebook logo"/>
         </section>
         <section className='social_box'>
-            <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
+            <LogoSM nameLogo="Instagram" imgAlt="Instagram logo"/>
         </section>
         <section className='social_box'>
-            <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
+            <LogoSM nameLogo="Twitter" imgAlt="Twitter logo"/>
         </section>
         <section className='social_box'>
-            <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
+            <LogoSM nameLogo="Linkedin" imgAlt="Linkedin logo"/>
         </section>
         <section className='social_box'>
-            <LogoSM imgPath="./../Icons/icons8-js.svg" imgAlt="JavaScript"/>
+            <LogoSM nameLogo="Github" imgAlt="Github logo"/>
         </section>
     </div>
   )

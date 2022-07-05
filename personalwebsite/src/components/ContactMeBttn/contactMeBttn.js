@@ -3,7 +3,7 @@ import './contactMeBttn.css'
 
 function contactMeBttn() {
   return (
-    <button className='s1_button'>Contact Me</button>
+    <button className='s1_button'>CONTACT ME</button>
   )
 }
 

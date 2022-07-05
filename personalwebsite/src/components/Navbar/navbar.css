@@ -1,14 +1,16 @@
 .nav_size {
   display: flex;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   height: 5%;
-  background-color: lightgoldenrodyellow;
+  color: #a6d4f2;
+  background-color: #000000;
+  z-index: 1000;
 }
 
 .nav_content {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   align-items: center;
@@ -16,14 +18,16 @@
 }
 
 .nav_logo {
+  margin-left: 0;
+  margin-right: -10vw;
   width: 25vw;
-  background-color: lightpink;
+  background-color: none;
   align-items: center;
   height: 100%;
 }
 
 .nav_logo-img {
-  margin-top: -3.5%;
+  margin-top: -2.5%;
   height: 150%;
   cursor: pointer;
 }
@@ -40,7 +44,7 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: lightseagreen;
+  background-color: none;
   padding: 0;
   margin: 0;
 }
@@ -49,7 +53,7 @@
   width: 100%;
   align-items: center;
   display: flex;
-  background-color: #3b6ce1;
+  background-color: none;
   padding: 0;
   margin: 0;
   justify-content: center;
@@ -57,27 +61,32 @@
 
 .nav_links > ul > li {
   cursor: pointer;
-  background-color: azure;
+  background-color: none;
   padding: 0;
   margin: 0 2%;
 }
 
+.nav_links > ul > li:hover {
+  color: #ffffff;
+}
+
 .links_text {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   text-align: left;
-  color: #000000;
+  color: #f8f8ff;
   list-style: none;
 }
 
 .nav_socialmedia {
   display: flex;
-  width: 25vw;
-  height: 100%;
+  width: 15vw;
+  height: 80%;
   align-items: center;
   justify-content: center;
-  background-color: lightslategrey;
+  background-color: none;
+  background-color: #25262a;
 }
 
 .nav_button {
@@ -116,7 +125,7 @@
     width: 80%;
     height: auto;
     min-height: 5%;
-    background-color: lightgoldenrodyellow;
+    background-color: none;
     transition: top 2s;
   }
 
@@ -155,7 +164,6 @@
     height: 150px;
     margin: 0;
     padding-top: 0;
-    background-color: lightpink;
   }
 
   .nav_logo-img {
@@ -166,14 +174,12 @@
 
   .nav_links {
     width: 100%;
-    background-color: lightseagreen;
   }
 
   .nav_links > ul {
     width: 100%;
     align-items: center;
     display: block;
-    background-color: #3b6ce1;
     margin: 0;
     padding-top: 10%;
     justify-content: center;
@@ -181,7 +187,6 @@
 
   .nav_links > ul > li {
     cursor: pointer;
-    background-color: orange;
     padding: 0;
     margin: 2%;
     text-align: center;
@@ -190,6 +195,5 @@
   .nav_socialmedia {
     padding-top: 10%;
     width: 100%;
-    background-color: lightslategrey;
   }
 }

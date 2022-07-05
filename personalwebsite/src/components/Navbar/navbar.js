@@ -1,6 +1,7 @@
 import React from 'react';
 import {useNavigate } from "react-router-dom";
 import './navbar.css'
+import SocialMediaLinks from '../../components/SocialMediaLinks/socialMediaLinks'
 import Logo from './../Imgs/logo_lf.png'
 function Navbar() {
   const navigate = useNavigate();
@@ -14,23 +15,21 @@ function Navbar() {
         <section className='nav_links'>
             <ul>
                 <li className='links_text'>
-                    Presentación
+                    About me
                 </li>
                 <li className='links_text'>
-                    Proyectos
+                    Proyects
                 </li>
                 <li className='links_text'>
-                    Tecnologías
+                    Techs
                 </li>
                 <li className='links_text'>
-                    Contacto
+                    Contact
                 </li>
             </ul>
         </section>
         <section className='nav_socialmedia'>
-            <button>
-                REDES SOCIALES
-            </button>
+            <SocialMediaLinks/> 
         </section>
     </nav>
   </div>
