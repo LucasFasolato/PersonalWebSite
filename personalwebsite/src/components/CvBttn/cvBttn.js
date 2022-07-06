@@ -3,7 +3,7 @@ import './cvBttn.css'
 
 function cvBttn() {
   return (
-    <button className='s2_button'>Download CV</button>
+    <button className='s2_button'>DOWNLOAD CV</button>
   )
 }
 

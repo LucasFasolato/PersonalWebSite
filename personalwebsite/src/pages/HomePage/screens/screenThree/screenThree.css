@@ -3,7 +3,8 @@
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-color: dodgerblue;
+  background-color: #25262a;
+  overflow: hidden;
 }
 
 .s3_content {
@@ -12,17 +13,198 @@
   margin: 0 auto;
   width: 80%;
   height: 100%;
-  background-color: salmon;
+  background-color: none;
 }
 
 .s3_left {
   width: 50%;
   height: 100vh;
-  background-color: gainsboro;
+  display: block;
+  background-color: none;
 }
 
 .s3_right {
   width: 50%;
   height: 100vh;
-  background-color: red;
+  background-color: none;
 }
+
+.s3_h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 5vh 0;
+  padding: 0px;
+  text-align: left;
+  color: #f8f8ff;
+  background-color: none;
+}
+
+.s3_section {
+  display: block;
+  margin-bottom: 3vh;
+}
+
+.s3_logo-name {
+  display: flex;
+  height: 5vh;
+  background-color: none;
+  margin: 2vh 0;
+  align-items: center;
+}
+
+.s3_p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 2%;
+  padding: 0;
+  text-align: left;
+  color: #f8f8ff;
+}
+
+.s3_logo-size {
+  width: 5vh;
+  height: 5vh;
+}
+
+.s3_img {
+  width: 100%;
+  height: 100%;
+}
+
+.s3_skill-html {
+  padding: 0;
+  margin: 1vh 0;
+  width: 85%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-html:hover {
+  width: 80%;
+} */
+
+.s3_skill-css {
+  padding: 0;
+  margin: 1vh 0;
+  width: 85%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-css:hover {
+  width: 80%;
+} */
+
+.s3_skill-js {
+  padding: 0;
+  margin: 1vh 0;
+  width: 85%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-js:hover {
+  width: 80%;
+} */
+
+.s3_skill-react {
+  padding: 0;
+  margin: 1vh 0;
+  width: 80%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-react:hover {
+  width: 80%;
+} */
+.s3_skill-angular {
+  padding: 0;
+  margin: 1vh 0;
+  width: 60%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-angular:hover {
+  width: 80%;
+} */
+
+.s3_skill-sass{
+  padding: 0;
+  margin: 1vh 0;
+  width: 65%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-sass:hover {
+  width: 80%;
+} */
+
+.s3_skill-bootstrap {
+  padding: 0;
+  margin: 1vh 0;
+  width: 70%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-bootstrap:hover {
+  width: 80%;
+} */
+
+.s3_skill-mysql {
+  padding: 0;
+  margin: 1vh 0;
+  width: 75%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-mysql:hover {
+  width: 80%;
+} */
+
+.s3_skill-mongodb {
+  padding: 0;
+  margin: 1vh 0;
+  width: 75%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-mongodb:hover {
+  width: 80%;
+} */
+
+.s3_skill-django {
+  padding: 0;
+  margin: 1vh 0;
+  width: 70%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-django:hover {
+  width: 80%;
+} */
+
+.s3_skill-springjava {
+  padding: 0;
+  margin: 1vh 0;
+  width: 65%;
+  height: 1.2vh;
+  background-color: aquamarine;
+  transition: all 2s;
+}
+/* .s3_skill-springjava:hover {
+  width: 80%;
+} */
+
+
+
+

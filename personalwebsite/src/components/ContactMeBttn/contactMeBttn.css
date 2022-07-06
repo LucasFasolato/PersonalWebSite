@@ -9,8 +9,8 @@
   font-size: 20px;
   color: #1c1c1c;
   background-color: #a6d4f2;
-  border: 3px solid #000000;
-  cursor:pointer;
+  border: none;
+  cursor: pointer;
   transition: all 0.5s;
 }
 

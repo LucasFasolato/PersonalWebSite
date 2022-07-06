@@ -3,7 +3,8 @@
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-color: dodgerblue;
+  background-color: #25262a;
+  overflow: hidden;
 }
 
 .s2_content {
@@ -12,19 +13,19 @@
   margin: 0 auto;
   width: 80%;
   height: 100%;
-  background-color: darkmagenta;
+  background-color: none;
 }
 
 .s2_left {
-  width: 50%;
+  width: 65%;
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: none;
 }
 
 .s2_right {
-  width: 50%;
+  width: 35%;
   height: 100vh;
-  background-color: gray;
+  background-color: #a6d4f2;
 }
 
 .s2_left-content {
@@ -36,7 +37,7 @@
 .s2_left-title {
   height: 12vh;
   width: 100%;
-  background-color: orange;
+  background-color: none;
 }
 
 .s2_h2 {
@@ -44,51 +45,112 @@
   font-size: 32px;
   font-weight: 600;
   margin: 0;
-  padding: 5%;
+  padding: 5vh;
   padding-bottom: 0;
+  color: #f8f8ff;
 }
 
 .s2_left-proyects {
   height: 80vh;
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
+  background-color: none;
   justify-content: space-around;
   align-items: center;
 }
 .s2_proyect-box {
   border: 2px solid black;
   height: 30vh;
-  width: 18vw;
+  width: 45%;
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
-}
-
-.s2_proyect-box:hover {
-  height: 32vh;
-  width: 18.5vw;
-  background-color: wheat;
+  background-color: none;
 }
 
 .s2_h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
   margin: 0;
-  padding: 0 5%;
+  padding: 0 5vh;
+  color: #25262a;
 }
 
 .s2_p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  padding: 0 5%;
+  padding: 0 5vh;
 }
 
 .s2_bttn {
-  padding: 5%;
+  padding: 0 5vh 4vh;
+  height: 6vh;
+  width: 45%;
 }
+
+.s2_skills-size {
+  height: 50vh;
+  width: 100%;
+}
+
+.s2_h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 5vh;
+  padding-bottom: 0;
+  color: #25262a;
+}
+
+.s2_skill-html {
+  padding: 0;
+  margin: 1vh 5vh;
+  width: 80%;
+  height: 2vh;
+  background-color: #25262a;
+  transition: all 2s;
+}
+/* .s2_skill-html:hover {
+  width: 80%;
+} */
+
+.s2_skill-react {
+  padding: 0;
+  margin: 1vh 5vh;
+  width: 75%;
+  height: 2vh;
+  background-color: #25262a;
+  transition: all 2s;
+}
+/* .s2_skill-react:hover {
+  width: 75%;
+} */
+
+.s2_skill-angular {
+  padding: 0;
+  margin: 1vh 5vh;
+  width: 45%;
+  height: 2vh;
+  background-color: #25262a;
+  transition: all 2s;
+}
+/* .s2_skill-angular:hover {
+  width: 45%;
+} */
+
+.s2_skill-java {
+  padding: 0;
+  margin: 1vh 5vh;
+  width: 55%;
+  height: 2vh;
+  background-color: #25262a;
+  transition: all 2s;
+}
+/* .s2_skill-java:hover {
+  width: 60%;
+} */
 
 @media screen and (max-width: 920px) {
   .s2_proyect-box {
