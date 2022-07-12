@@ -88,7 +88,7 @@ h6 {
 
 .s1_h2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
   margin: 0;
   margin-top: -1%;
@@ -100,7 +100,7 @@ h6 {
 
 .s1_h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
   margin: auto;
   margin-top: -1%;
@@ -152,6 +152,7 @@ h6 {
   height: 100%;
   background-color: none;
   overflow: hidden;
+  margin-top: -0.06%;
 }
 
 .s1_img-content {

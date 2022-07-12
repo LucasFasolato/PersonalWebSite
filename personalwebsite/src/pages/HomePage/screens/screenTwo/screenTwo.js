@@ -29,38 +29,36 @@ function screenTwo() {
           </section>
         </div>
         <div className='s2_right'> 
-        <section>
-          <div className='s2_right-title'>
-            <h2 className='s2_h2'>About me</h2>
-          </div>
-          <div>
-            <h1 className='s2_h1'>Lucas Fasolato</h1>
-            <p className='s2_p'>
-              <span>Tengo 21 años, soy Desarrollador Web Full Stack. </span>
-              <span>Me recibí de Técnico Universitario en Programación en la Universidad Austral de Argentina. </span>
-              <br/>
-              <span>Soy una persona responsable, social y comprometida con el trabajo. </span>
-              <span>Me gusta trabajar en equipo y me adapto con facilidad a proyectos ya comenzados. </span>
-              <span>Busco generar un código limpio y semánticamente correcto </span>
-              <span>logrando que cada detalle quede resuelto.</span>
-            </p>
-          </div>
-          <section className='s2_bttn'>
-            <CvBttn /> 
-          </section>
-          <section className='s2_skills-size'>
-            <h3 className='s2_h3'>HTML, CSS, JS</h3>
-            <div className='s2_skill-html'/>
-            <h3 className='s2_h3'>REACT JS</h3>
-            <div className='s2_skill-react'/>
-            <h3 className='s2_h3'>ANGULAR</h3>
-            <div className='s2_skill-angular'/>
-            <h3 className='s2_h3'>SPRING JAVA</h3>
-            <div className='s2_skill-java'/>
-          </section>
-        </section>
-        
-
+          <section>
+            <div className='s2_right-title'>
+              <h2 className='s2_h2'>About me</h2>
+            </div>
+            <div className='s2_right-text'>
+              <h1 className='s2_h1'>Lucas Fasolato</h1>
+              <p className='s2_p'>
+                <span>Tengo 21 años, soy Desarrollador Web Full Stack. </span>
+                <span>Me recibí de Técnico Universitario en Programación en la Universidad Austral de Argentina. </span>
+                <br/>
+                <span>Soy una persona responsable, social y comprometida con el trabajo. </span>
+                <span>Me gusta trabajar en equipo y me adapto con facilidad a proyectos ya comenzados. </span>
+                <span>Busco generar un código limpio y semánticamente correcto </span>
+                <span>logrando que cada detalle quede resuelto.</span>
+              </p>
+            </div>
+            <section className='s2_bttn'>
+              <CvBttn /> 
+            </section>
+            {/* <section className='s2_skills-size'>
+              <h3 className='s2_h3'>HTML, CSS, JS</h3>
+              <div className='s2_skill-html'/>
+              <h3 className='s2_h3'>REACT JS</h3>
+              <div className='s2_skill-react'/>
+              <h3 className='s2_h3'>ANGULAR</h3>
+              <div className='s2_skill-angular'/>
+              <h3 className='s2_h3'>SPRING JAVA</h3>
+              <div className='s2_skill-java'/>
+            </section>*/}
+          </section> 
         </div>    
       </div>
     </div>

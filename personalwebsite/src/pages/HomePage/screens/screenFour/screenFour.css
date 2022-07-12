@@ -14,6 +14,7 @@
   width: 80%;
   height: 80%;
   background-color: none;
+  overflow: hidden;
 }
 
 .s4_footer {
@@ -23,7 +24,8 @@
 
 .s4_section {
   width: 60%;
-  height: 60%;
+  height: max-content;
+  padding: 5%;
   display: block;
   margin: auto;
   background-color: #25262a;
@@ -37,7 +39,6 @@
   font-size: 48px;
   font-weight: 600;
   margin: 0;
-  margin-top: 10%;
   color: #f8f8ff;
 }
 
@@ -51,7 +52,55 @@
 }
 
 .s4_button {
-  width: 35%;
-  height: 14%;
+  width: 50%;
+  height: 10vh;
   margin: 3% auto;
+}
+
+@media screen and (max-width: 1150px)  {
+  .s4_h1 {
+    font-size: 36px;
+  }
+  
+  .s4_p {
+    font-size: 20px;
+  }
+
+  .s4_button {
+    width: 60%;
+    height: 10vh;
+    margin: 3% auto;
+  }
+}
+
+
+@media screen and (max-width: 900px)  {
+  .s4_h1 {
+    font-size: 24px;
+  }
+  
+  .s4_p {
+    font-size: 16px;
+  }
+  .s4_content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 715px)  {
+  .s4_button {
+    width: 100%;
+    height: 10vh;
+    margin: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 400px)  {
+  .s4_h1 {
+    font-size: 16px;
+  }
+  
+  .s4_p {
+    font-size: 12px;
+  }
 }
