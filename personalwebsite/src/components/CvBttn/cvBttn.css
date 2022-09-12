@@ -12,6 +12,7 @@
   border: none;
   transition: all 0.2s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .s2_button:hover {

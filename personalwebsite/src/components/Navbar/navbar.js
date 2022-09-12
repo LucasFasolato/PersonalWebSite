@@ -9,7 +9,7 @@ function Navbar() {
   <div className='nav_size'>
     <button className='nav_button'>DESPLEGAR MENU</button>
     <nav className='nav_content'>
-        <section className='nav_logo'>
+        <section className='nav_logo' onClick={() => {navigate("/home")}}>
             <img className='nav_logo-img' src={Logo} alt="Logo LF del navbar"/>
         </section>
         <section className='nav_links'>
@@ -17,13 +17,13 @@ function Navbar() {
                 <li className='links_text'>
                     About me
                 </li>
-                <li className='links_text'>
+                <li className='links_text' onClick={() => {navigate("#s2")}}>
                     Proyects
                 </li>
                 <li className='links_text'>
                     Techs
                 </li>
-                <li className='links_text'>
+                <li className='links_text' onClick={() => {navigate("/contact")}}>
                     Contact
                 </li>
             </ul>

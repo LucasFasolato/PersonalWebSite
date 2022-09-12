@@ -136,6 +136,8 @@
   .nav_size:hover > .nav_content {
     display: block;
     top: 0;
+    width: 100vw;
+    height: 100vh;
   }
 
   .nav_size:hover > .nav_button {

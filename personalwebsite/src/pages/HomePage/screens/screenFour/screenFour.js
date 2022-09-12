@@ -9,8 +9,7 @@ function screenFour() {
         <section className='s4_section'>
           <h1 className='s4_h1'>Lets work together!</h1>
           <p className='s4_p'>
-            The technological revolution is changing aspect of our lives, and the fabric of society itself. 
-            It's also changing the way we learn and what we learn
+            
           </p>
           <div className='s4_button'>
             <ContactMeBttn/>

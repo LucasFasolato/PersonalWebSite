@@ -5,7 +5,7 @@ import BoxProyect from '../../../../components/BoxProyect/boxProyect'
 
 function screenTwo() {
   return (
-    <div className='s2_size'>
+    <div className='s2_size' id='s2'>
       <div className='s2_content'>
         <div className='s2_left'>
           <section className='s2_left-content'>

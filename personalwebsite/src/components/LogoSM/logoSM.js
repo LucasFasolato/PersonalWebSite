@@ -31,7 +31,7 @@ function logoSM(props) {
   } else if (props.nameLogo === "Linkedin") {
     return (
     <div className='logo_content'>
-      <a href="https://www.linkedin.com/in/lucas-daniel-fasolato/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/lucasfasolato/" target="_blank" rel="noreferrer">
         <button className='logo_button' id='logo_button'>
             <img className='logo_img' src={Linkedin} alt={props.imgAlt}/>
         </button>

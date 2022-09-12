@@ -17,9 +17,11 @@ function BoxProyect(props) {
                     <button className='boxProyect_preview'>
                         Preview
                     </button>
-                    <button className='boxProyect_github'>
-                        GitHub
-                    </button>
+                    <a href="https://github.com/LucasFasolato/proyecto-lab-front" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_github'>
+                            GitHub
+                        </button>
+                    </a>
                 </section>
             </div>
         )
@@ -35,9 +37,11 @@ function BoxProyect(props) {
                     <button className='boxProyect_preview'>
                         Preview
                     </button>
-                    <button className='boxProyect_github'>
-                        GitHub
-                    </button>
+                    <a href="https://github.com/LucasFasolato/Peliculas-API-Prueba" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_github'>
+                            GitHub
+                        </button>
+                    </a>
                 </section>
             </div>
         )
@@ -53,9 +57,11 @@ function BoxProyect(props) {
                     <button className='boxProyect_preview'>
                         Preview
                     </button>
-                    <button className='boxProyect_github'>
-                        GitHub
-                    </button>
+                    <a href="https://github.com/LucasFasolato/PersonalWebSite" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_github'>
+                            GitHub
+                        </button>
+                    </a>
                 </section>
             </div>
         )
@@ -71,9 +77,11 @@ function BoxProyect(props) {
                     <button className='boxProyect_preview'>
                         Preview
                     </button>
-                    <button className='boxProyect_github'>
-                        GitHub
-                    </button>
+                    <a href="https://github.com/LucasFasolato/RosarioNights" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_github'>
+                            GitHub
+                        </button>
+                    </a>
                 </section>
             </div>
         )

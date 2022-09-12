@@ -1,9 +1,20 @@
 import React from 'react'
 import './cvBttn.css'
+import CVLDF from './LucasFasolatoCV.pdf'
 
 function cvBttn() {
   return (
-    <button className='s2_button'>DOWNLOAD CV</button>
+    <a
+      //this will save the file as "LucasFasolatoCV.pdf"
+      download="LucasFasolatoCV.pdf"
+      //put the path of your pdf file
+      href={CVLDF}
+      //reactstrap classes. add green button
+      className='s2_button'
+    >
+      <button className='s2_button'>DOWNLOAD CV</button>
+    </a>
+    
   )
 }
 
