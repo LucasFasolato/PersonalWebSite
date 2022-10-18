@@ -278,10 +278,6 @@ h6 {
     width: 100% !important;
   }
 
-  .s1_desc-span {
-    display: none;
-  }
-
   .s1_left {
     position: relative;
     width: 100%;
@@ -307,5 +303,28 @@ h6 {
   .s1_button {
     width: 100% !important;
     font-size: 10px;
+  }
+  .s1_desc-p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .s1_h3 {
+    font-size: 14px;
+  }
+
+  .s1_h2 {
+    font-size: 28px;
+  }
+  .s1_h1 {
+    font-size: 28px;
+  }
+  .s1_desc-p {
+    font-size: 14px;
+    margin-bottom: 4vh;
+  }
+  .s1_desc-span {
+    display: none;
   }
 }

@@ -25,17 +25,17 @@ function Navbar() {
                     <section className='nav_links' onClick={() => {navigate("/home");setActivation(false)}}>
                         <ul>
                             <li className='links_text'onClick={() => {navigate("/home");setActivation(false)}}>
-                                <a href='#s1' className='a_link'> 
+                                <a href='#sobremi' className='a_link'> 
                                     Sobre mí
                                 </a>
                             </li>
                             <li className='links_text' onClick={() => {setActivation(false)}}>
-                                <a href='#s2' className='a_link'> 
+                                <a href='#proyectos' className='a_link'> 
                                     Proyectos
                                 </a>
                             </li>
                             <li className='links_text' onClick={() => {navigate("/home");setActivation(false)}}>
-                                <a href='#s3' className='a_link'> 
+                                <a href='#tecnologias' className='a_link'> 
                                     Tecnologías
                                 </a>
                             </li>

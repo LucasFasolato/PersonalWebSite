@@ -29,7 +29,6 @@
 .nav_logo-img {
   margin-top: -3.5%;
   height: 150%;
-  cursor: pointer;
 }
 
 .nav_logo > h1 {
@@ -59,10 +58,11 @@
     padding: 0;
     margin: 0;
     justify-content: center;
+    overflow: hidden;
+    z-index: 2000;
 }
 
 .nav_links > ul > li {
-    cursor: pointer;
     background-color: none;
     padding: 0;
     margin: 0 2%;
@@ -85,6 +85,7 @@
 .a_link {
     text-decoration: none;
     color: #cccccc;
+    cursor: pointer;
 }
 
 .a_link:hover {
@@ -169,7 +170,6 @@
         display: block;
         margin: 0 auto;
         height: 100%;
-        cursor: pointer;
     }
       
     .nav_logo > h1 {
@@ -193,7 +193,6 @@
     }
 
     .nav_links > ul > li {
-        cursor: pointer;
         background-color: none;
         padding: 0;
         margin: 0 2%;
@@ -232,7 +231,6 @@
         width: 100%;
         text-align: center;
         display: block;
-        cursor: pointer;
     }
 
     .links_text {

@@ -9,7 +9,7 @@ function screenOne() {
   return (
     <div className='s1_size'>
         <Navbar/>
-        <div className='s1_content' id='s1'>
+        <div className='s1_content' id='sobremi'>
             <div className='s1_left'>
               <div className='s1_left-content'>
                 <div className='s1_name-and-desc'>

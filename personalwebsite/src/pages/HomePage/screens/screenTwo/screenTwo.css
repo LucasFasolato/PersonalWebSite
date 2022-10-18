@@ -273,3 +273,26 @@
   
 }
 
+@media screen and (max-width: 400px)  {
+  .s2_proyect-box {
+    border: none;
+    width: 65%;
+    margin-bottom: 6vh;
+  }
+}
+
+@media screen and (max-width: 370px)  {
+  .s2_proyect-box {
+    border: none;
+    width: 70%;
+    margin-bottom: 6vh;
+  }
+}
+
+@media screen and (max-width: 350px)  {
+  .s2_proyect-box {
+    border: none;
+    width: 75%;
+    margin-bottom: 6vh;
+  }
+}
