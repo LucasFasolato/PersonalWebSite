@@ -40,7 +40,7 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className='links_text' onClick={() => {navigate("/contact");setActivation(false)}}>
-                                <a href='#s4' className='a_link'> 
+                                <a href='https://linktr.ee/lucasfasolato' target='_blank' className='a_link'> 
                                     Contacto
                                 </a>
                             </li>

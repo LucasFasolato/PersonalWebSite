@@ -182,9 +182,13 @@ h6 {
 }
 
 @media screen and (max-width: 1325px) {
+  .s1_size {
+    height: 100vh;
+  }
+
   .s1_content {
     display: block;
-    max-height: 100vh;
+    height: 100%;
     overflow: hidden;
     padding: 0;
     margin: 0 auto;
@@ -219,6 +223,9 @@ h6 {
 }
 
 @media screen and (max-width: 1000px) {
+  .s1_size {
+    margin-bottom: -10vh;
+  }
   .s1_left {
     position: relative;
     width: 100%;
@@ -310,6 +317,10 @@ h6 {
 }
 
 @media screen and (max-width: 450px) {
+  .s1_size {
+    margin-bottom: -16vh;
+  }
+
   .s1_h3 {
     font-size: 14px;
   }

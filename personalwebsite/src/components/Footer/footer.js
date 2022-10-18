@@ -10,7 +10,7 @@ function Footer() {
                 <img className='footer_logo-img' src={Logo} alt="Logo LF del navbar"/>
             </section>
             <section className='footer_area footer_terms'>
-                <p>© 2022 Todos los derechos reservados.</p>
+                <p className='footer_p'>© 2022 Todos los derechos reservados.</p>
             </section>
             <section className='footer_area footer_sm'>
                 <SocialMediaLinks/>

@@ -9,7 +9,6 @@ function screenFour() {
         <section className='s4_section'>
           <h1 className='s4_h1'>¡Trabajemos juntos!</h1>
           <p className='s4_p'>
-            
           </p>
           <div className='s4_button'>
             <ContactMeBttn/>

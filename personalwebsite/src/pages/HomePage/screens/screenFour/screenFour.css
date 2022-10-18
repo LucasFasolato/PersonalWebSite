@@ -89,15 +89,19 @@
 
 @media screen and (max-width: 715px)  {
   .s4_button {
-    width: 100%;
+    width: 60%;
     height: 10vh;
-    margin: 5% 10%;
   }
 }
 
 @media screen and (max-width: 400px)  {
   .s4_h1 {
     font-size: 16px;
+  }  
+  
+  .s4_button {
+    width: 90%;
+    height: 10vh;
   }
   
   .s4_p {

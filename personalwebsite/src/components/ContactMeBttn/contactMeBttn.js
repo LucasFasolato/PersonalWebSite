@@ -1,13 +1,12 @@
 import React from 'react'
 import './contactMeBttn.css'
-import {useNavigate } from "react-router-dom";
-
   
 function contactMeBttn() {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const navigate = useNavigate();
   return (
-    <button className='s1_button' onClick={() => {navigate("/contact")}}>Contactame</button>
+    <a className='a_contact' href='https://linktr.ee/lucasfasolato' target='_blank'>
+      <button className='s1_button'>Contactame</button>
+    </a>
+    
   )
 }
 
