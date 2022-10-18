@@ -3,7 +3,7 @@ import './goToTopBttn.css';
 import upArrow from './up-arrow.png'
 
 export default function GoToTopBtnn() {
-    const [isVisible, setIsVisible] = useState(true);
+    const [isVisible, setIsVisible] = useState(false);
     const [height, setHeight] = useState(0)
     
     useEffect(() => {   
@@ -18,10 +18,10 @@ export default function GoToTopBtnn() {
           document.documentElement.scrollTop;
       setHeight(winScroll);
   
-      if (winScroll < heightToHideFrom) {  
-           isVisible && setIsVisible(false);
+      if (winScroll > heightToHideFrom) {  
+           !isVisible && setIsVisible(true);
       } else {
-           setIsVisible(true);
+           setIsVisible(false);
       }  
     };
   
