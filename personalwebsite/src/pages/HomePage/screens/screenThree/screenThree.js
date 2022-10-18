@@ -14,7 +14,7 @@ import Spring from './../../../../components/Icons/icons8-java.svg'
 
 function screenThree() {
   return (
-    <div className='s3_size'>
+    <div className='s3_size' id='s3'>
       <div className='s3_content'>
         <div className='s3_left'>
           <h1 className='s3_h1'>FRONT END</h1>

@@ -7,7 +7,7 @@ function contactMeBttn() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const navigate = useNavigate();
   return (
-    <button className='s1_button' onClick={() => {navigate("/contact")}}>CONTACT ME</button>
+    <button className='s1_button' onClick={() => {navigate("/contact")}}>Contactame</button>
   )
 }
 

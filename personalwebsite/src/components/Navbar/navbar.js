@@ -1,39 +1,63 @@
-import React from 'react';
-import {useNavigate } from "react-router-dom";
-import './navbar.css'
-import SocialMediaLinks from '../../components/SocialMediaLinks/socialMediaLinks'
+/* eslint-disable no-undef */
+import React, {useEffect, useState} from 'react';
 import Logo from './../Imgs/logo_lf.png'
+import './navbar.css'
+import {Link, useNavigate} from "react-router-dom";
+import MenuBurger from './menu-burger.png';
+import SocialMediaLinks from '../SocialMediaLinks/socialMediaLinks'
+
 function Navbar() {
-  const navigate = useNavigate();
-  return (
-  <div className='nav_size'>
-    <button className='nav_button'>DESPLEGAR MENU</button>
-    <nav className='nav_content'>
-        <section className='nav_logo' onClick={() => {navigate("/home")}}>
-            <img className='nav_logo-img' src={Logo} alt="Logo LF del navbar"/>
-        </section>
-        <section className='nav_links'>
-            <ul>
-                <li className='links_text'>
-                    About me
-                </li>
-                <li className='links_text' onClick={() => {navigate("#s2")}}>
-                    Proyects
-                </li>
-                <li className='links_text'>
-                    Techs
-                </li>
-                <li className='links_text' onClick={() => {navigate("/contact")}}>
-                    Contact
-                </li>
-            </ul>
-        </section>
-        <section className='nav_socialmedia'>
-            <SocialMediaLinks/> 
-        </section>
-    </nav>
-  </div>
-  )
+    const navigate = useNavigate();
+    const [activation, setActivation] = useState(false);
+    const handleLogout = () => {
+        logout({ returnTo: window.location.origin })
+    }
+    var className = activation ? 'show_content' : 'nav_content';
+
+
+    return (
+        <div className='nav_size'>
+            <nav className={className} id='nav_content'>
+                <section className='nav_logo' onClick={() => {navigate("/home")}}>
+                    <img className='nav_logo-img' src={Logo} alt="Logo LF del navbar"/>
+                </section>
+                <>
+                    <section className='nav_links' onClick={() => {navigate("/home");setActivation(false)}}>
+                        <ul>
+                            <li className='links_text'onClick={() => {navigate("/home");setActivation(false)}}>
+                                <a href='#s1' className='a_link'> 
+                                    Sobre mí
+                                </a>
+                            </li>
+                            <li className='links_text' onClick={() => {setActivation(false)}}>
+                                <a href='#s2' className='a_link'> 
+                                    Proyectos
+                                </a>
+                            </li>
+                            <li className='links_text' onClick={() => {navigate("/home");setActivation(false)}}>
+                                <a href='#s3' className='a_link'> 
+                                    Tecnologías
+                                </a>
+                            </li>
+                            <li className='links_text' onClick={() => {navigate("/contact");setActivation(false)}}>
+                                <a href='#s4' className='a_link'> 
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section className='nav_socialmedia'>
+                        <SocialMediaLinks/> 
+                    </section>
+                </>
+            </nav>
+            <div className='burger_bttn' onClick={() => activation ? setActivation(false) : setActivation(true)}> 
+            <div className='burger_img'>
+                <img src={MenuBurger} />
+            </div>
+            </div>
+        </div>
+    )
 }
 
 export default Navbar 

@@ -10,7 +10,7 @@ function screenTwo() {
         <div className='s2_left'>
           <section className='s2_left-content'>
             <div className='s2_left-title'>
-              <h2 className='s2_h2'>Personal proyects</h2>
+              <h2 className='s2_h2'>Proyectos personales</h2>
             </div>
             <div className='s2_left-proyects'>
               <section className='s2_proyect-box'>
@@ -29,9 +29,9 @@ function screenTwo() {
           </section>
         </div>
         <div className='s2_right'> 
-          <section>
+          <section className='s2_right-content'>
             <div className='s2_right-title'>
-              <h2 className='s2_h2'>About me</h2>
+              <h2 className='s2_h2'>Sobre mí</h2>
             </div>
             <div className='s2_right-text'>
               <h1 className='s2_h1'>Lucas Fasolato</h1>

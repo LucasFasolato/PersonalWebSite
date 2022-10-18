@@ -12,7 +12,7 @@ function cvBttn() {
       //reactstrap classes. add green button
       className='s2_button'
     >
-      <button className='s2_button'>DOWNLOAD CV</button>
+      <button className='s2_button'>Descarga CV</button>
     </a>
     
   )

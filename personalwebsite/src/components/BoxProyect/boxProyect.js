@@ -14,9 +14,11 @@ function BoxProyect(props) {
                     <h2 className='boxProyect_h2'>Website</h2>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <button className='boxProyect_preview'>
-                        Preview
-                    </button>
+                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_preview'>
+                            Preview
+                        </button>
+                    </a>
                     <a href="https://github.com/LucasFasolato/proyecto-lab-front" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_github'>
                             GitHub
@@ -34,9 +36,11 @@ function BoxProyect(props) {
                     <h2 className='boxProyect_h2'>Website</h2>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <button className='boxProyect_preview'>
-                        Preview
-                    </button>
+                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_preview'>
+                            Preview
+                        </button>
+                    </a>
                     <a href="https://github.com/LucasFasolato/Peliculas-API-Prueba" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_github'>
                             GitHub
@@ -54,9 +58,11 @@ function BoxProyect(props) {
                     <h2 className='boxProyect_h2'>Website</h2>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <button className='boxProyect_preview'>
-                        Preview
-                    </button>
+                    <a href="https://lucasfaso.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_preview'>
+                            Preview
+                        </button>
+                    </a>
                     <a href="https://github.com/LucasFasolato/PersonalWebSite" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_github'>
                             GitHub
@@ -74,9 +80,11 @@ function BoxProyect(props) {
                     <h2 className='boxProyect_h2'>Website</h2>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <button className='boxProyect_preview'>
-                        Preview
-                    </button>
+                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <button className='boxProyect_preview'>
+                            Preview
+                        </button>
+                    </a>
                     <a href="https://github.com/LucasFasolato/RosarioNights" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_github'>
                             GitHub

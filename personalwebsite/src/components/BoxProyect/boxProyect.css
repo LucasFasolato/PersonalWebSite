@@ -22,13 +22,19 @@
 
 .boxProyect_h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 600;
   color: #f8f8ff;
   margin: 0;
-  padding: 0 2%;
+  padding: 0.5% 2%;
   position: absolute;
-  top: 70%;
+  opacity: 0.7;
+  /* rotate: 270deg; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  z-index: 20;
 }
 
 .boxProyect_h2 {
@@ -36,10 +42,15 @@
   font-size: 14px;
   font-weight: 600;
   margin: 0;
-  padding: 0 2%;
+  padding: 0.5% 2%;
+  opacity: 0.8;
+  /* rotate: 270deg; */
   position: absolute;
-  top: 86%;
+  width: 100%;
+  top: 0;
+  background-color: #25262a;
   color: #f8f8ff;
+  z-index: 10;
 }
 
 .boxProyect_buttons {
@@ -56,18 +67,20 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 48%;
+  width: 100%;
   border-radius: 0;
   background-color: none;
   border: none;
-  border-radius: 8px;
+  border-radius: 0px 0px 8px 8px;
   transition: all 0.2s;
   cursor: pointer;
 }
 
 .boxProyect_preview:hover {
-  background-color: aquamarine;
-  color: black;
+  /* background-color: aquamarine; */
+  background-color: #2c69a5;
+  color: #f8f8ff;
+  border: none;
 }
 
 .a_content {
@@ -87,12 +100,13 @@
   border-radius: 0;
   background-color: none;
   border: none;
-  border-radius: 8px;
+  border-radius: 0px 0px 8px 8px;
   transition: all 0.2s;
   cursor: pointer;
 }
 
 .boxProyect_github:hover {
-  background-color: aquamarine;
-  color: black;
+  /* background-color: aquamarine; */
+  background-color: #2c69a5;
+  color: #f8f8ff;
 }
