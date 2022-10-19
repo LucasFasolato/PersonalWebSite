@@ -9,14 +9,16 @@ function BoxProyect(props) {
         return(
             <div className='boxProyect_size'>
                 <section className='boxProyect_section'>
-                    <img className='boxProyect_img' src={BancoAustral} alt='Description'/>
-                    <h1 className='boxProyect_h1'>{props.name}</h1>
-                    <h2 className='boxProyect_h2'>Website</h2>
+                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <img className='boxProyect_img' src={BancoAustral} alt='Description'/>
+                        <h1 className='boxProyect_h1'>{props.name}</h1>
+                        <h2 className='boxProyect_h2'>Website</h2>
+                    </a>
                 </section>
                 <section className='boxProyect_buttons'>
                     <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_preview'>
-                            Preview
+                            View
                         </button>
                     </a>
                     <a href="https://github.com/LucasFasolato/proyecto-lab-front" target="_blank" rel="noreferrer" className='a_content'>
@@ -31,14 +33,16 @@ function BoxProyect(props) {
         return(
             <div className='boxProyect_size'>
                 <section className='boxProyect_section'>
-                    <img className='boxProyect_img' src={Peliculas} alt='Description'/>
-                    <h1 className='boxProyect_h1'>{props.name}</h1>
-                    <h2 className='boxProyect_h2'>Website</h2>
+                    <a href="https://peli-prueba.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <img className='boxProyect_img' src={Peliculas} alt='Description'/>
+                        <h1 className='boxProyect_h1'>{props.name}</h1>
+                        <h2 className='boxProyect_h2'>Website</h2>
+                    </a>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                    <a href="https://peli-prueba.web.app" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_preview'>
-                            Preview
+                            View
                         </button>
                     </a>
                     <a href="https://github.com/LucasFasolato/Peliculas-API-Prueba" target="_blank" rel="noreferrer" className='a_content'>
@@ -53,14 +57,16 @@ function BoxProyect(props) {
         return(
             <div className='boxProyect_size'>
                 <section className='boxProyect_section'>
-                    <img className='boxProyect_img' src={PersonalWeb} alt='Description'/>
-                    <h1 className='boxProyect_h1'>{props.name}</h1>
-                    <h2 className='boxProyect_h2'>Website</h2>
+                    <a href="https://lucasfaso.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <img className='boxProyect_img' src={PersonalWeb} alt='Description'/>
+                        <h1 className='boxProyect_h1'>{props.name}</h1>
+                        <h2 className='boxProyect_h2'>Website</h2>
+                    </a>
                 </section>
                 <section className='boxProyect_buttons'>
                     <a href="https://lucasfaso.web.app" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_preview'>
-                            Preview
+                            View
                         </button>
                     </a>
                     <a href="https://github.com/LucasFasolato/PersonalWebSite" target="_blank" rel="noreferrer" className='a_content'>
@@ -75,14 +81,16 @@ function BoxProyect(props) {
         return(
             <div className='boxProyect_size'>
                 <section className='boxProyect_section'>
-                    <img className='boxProyect_img' src={Rosario} alt='Description'/>
-                    <h1 className='boxProyect_h1'>{props.name}</h1>
-                    <h2 className='boxProyect_h2'>Website</h2>
+                    <a href="https://lucasfaso.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                        <img className='boxProyect_img' src={Rosario} alt='Description'/>
+                        <h1 className='boxProyect_h1'>{props.name}</h1>
+                        <h2 className='boxProyect_h2'>Website</h2>
+                    </a>
                 </section>
                 <section className='boxProyect_buttons'>
-                    <a href="https://banco-austral.web.app" target="_blank" rel="noreferrer" className='a_content'>
+                    <a href="https://lucasfaso.web.app" target="_blank" rel="noreferrer" className='a_content'>
                         <button className='boxProyect_preview'>
-                            Preview
+                            View
                         </button>
                     </a>
                     <a href="https://github.com/LucasFasolato/RosarioNights" target="_blank" rel="noreferrer" className='a_content'>
