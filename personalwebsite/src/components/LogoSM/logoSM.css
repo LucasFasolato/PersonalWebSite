@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   background-color: none;
+  z-index: 3000;
 }
 
 .logo_button {
@@ -15,10 +16,12 @@
   background-color: #25262a;;
   border: none;
   cursor: pointer;
+  z-index: 3000;
 }
 
 .logo_img {
   height: 100%;
   width: auto;
   background-color: none;
+  z-index: 3000;
 }
