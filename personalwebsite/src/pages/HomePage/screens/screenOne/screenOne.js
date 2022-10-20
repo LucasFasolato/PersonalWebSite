@@ -12,7 +12,7 @@ function screenOne() {
         <div className='s1_content' id='sobremi'>
             <div className='s1_left'>
               <div className='s1_left-content'>
-                <div className='s1_name-and-desc'>
+                <div className='s1_name-and-desc'  data-aos="zoom-in-right" data-aos-duration="500">
                   {/* <div className='s1_name-content'>
                     <section className='s1_name-section'>
                       <h3 className='s1_h3'>Hello, I'm</h3>
@@ -34,7 +34,7 @@ function screenOne() {
                   <div className='s1_name-content'>
                     <section className='s1_name-section'>
                       <h3 className='s1_h3'>Hola! Mi nombre es</h3>
-                      <h2 className='s1_h2'>Lucas Fasolato</h2>                      
+                      <h2 className='s1_h2' >Lucas Fasolato</h2>                      
                       <h1 className='s1_h1'>Desarrollador Full Stack</h1> 
                     </section>
                   </div> 
@@ -51,7 +51,8 @@ function screenOne() {
                   </div> 
                 </div>
                 
-                <div className='s1_button-and-social'>
+                <div className='s1_button-and-social'data-aos="flip-right" data-aos-anchor-placement="bottom-bottom" 
+                  data-aos-duration="400" data-aos-delay="500">
                   <div className='s1_button-content'>
                     <ContactMeBttn/>
                   </div>
@@ -63,7 +64,7 @@ function screenOne() {
             </div>
                 
             <div className='s1_right'>
-                <div className='s1_img-content'>
+                <div className='s1_img-content' data-aos="fade-in" data-aos-duration="1200" data-aos-delay="500">
                   <img className='s1_img' src={PhotoPerfil} alt="Imagen presentaciòn Lucas Fasolato"/>
                 </div>
             </div>    

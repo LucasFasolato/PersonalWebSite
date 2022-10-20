@@ -13,16 +13,16 @@ function screenTwo() {
               <h2 className='s2_h2'>Proyectos personales</h2>
             </div>
             <div className='s2_left-proyects'>
-              <section className='s2_proyect-box'>
+              <section className='s2_proyect-box' data-aos="zoom-in-up" data-aos-duration="600">
                 <BoxProyect image='BancoAustral' name='Proyecto final TUP'/>
               </section>
-              <section className='s2_proyect-box'>
+              <section className='s2_proyect-box' data-aos="zoom-in-up" data-aos-duration="600">
                 <BoxProyect image='Peliculas' name='Proyecto personal Pelispedia'/>
               </section>
-              <section className='s2_proyect-box'> 
+              <section className='s2_proyect-box' data-aos="zoom-in-up" data-aos-duration="600"> 
                 <BoxProyect image='PersonalWeb' name='Pagina web propia'/>
               </section>
-              <section className='s2_proyect-box'>
+              <section className='s2_proyect-box' data-aos="zoom-in-up" data-aos-duration="600">
                 <BoxProyect image='Rosario' name='Proyecto RosarioNights'/>
               </section>
             </div>

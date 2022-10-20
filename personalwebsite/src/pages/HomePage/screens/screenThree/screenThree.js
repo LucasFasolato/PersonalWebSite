@@ -17,7 +17,7 @@ function screenThree() {
     <div className='s3_size' id='tecnologias'>
       <div className='s3_content'>
         <div className='s3_left'>
-          <h1 className='s3_h1'>FRONT END</h1>
+          <h1 className='s3_h1' data-aos="fade-in" data-aos-duration="500">FRONT END</h1>
           <section className='s3_section'>
             <section className='s3_logo-name' id='html'>
               <div className='s3_skill-html'/>
@@ -83,7 +83,7 @@ function screenThree() {
           </section>
         </div>
         <div className='s3_right'> 
-          <h1 className='s3_h1'>BACK END</h1>
+          <h1 className='s3_h1' data-aos="fade-in" data-aos-duration="500">BACK END</h1>
           <section className='s3_section'>
             <section className='s3_logo-name' id='mysql'>
               <div className='s3_skill-mysql'/>

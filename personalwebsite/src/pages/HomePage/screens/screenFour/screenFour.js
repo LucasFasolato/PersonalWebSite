@@ -6,11 +6,11 @@ function screenFour() {
   return (
     <div className='s4_size' id='s4'>
       <div className='s4_content'>
-        <section className='s4_section'>
+        <section className='s4_section' data-aos="zoom-out" data-aos-duration="700">
           <h1 className='s4_h1'>¡Trabajemos juntos!</h1>
           <p className='s4_p'>
           </p>
-          <div className='s4_button'>
+          <div className='s4_button' data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
             <ContactMeBttn/>
           </div>
         </section>

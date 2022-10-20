@@ -39,6 +39,7 @@ export default function GoToTopBtnn() {
                 window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
             }}
             className='upArrow'
+            data-aos="fade-in" data-aos-delay="100" data-aos-duration="300"
         >
             <img src={upArrow} alt='Flecha para volver arriba de todo' className='upArrow-img'/>
         </button>
