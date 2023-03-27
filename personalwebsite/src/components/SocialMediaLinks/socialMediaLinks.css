@@ -5,7 +5,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  z-index: 3000;
 }
 .social_box {
   height: 100%;

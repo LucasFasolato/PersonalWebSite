@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
-  background-color: #25262a;
+  height: max-content;
+  /* background-color: #25262a; */
+  /* padding-bottom: 2vh; */
 }
 
 .s3_content {
@@ -11,21 +12,19 @@
   padding: 0;
   margin: 0 auto;
   width: 80%;
-  height: 100%;
+  height: max-content;
   background-color: none;
   justify-content: space-between;
 }
 
 .s3_left {
   width: 45%;
-  height: 100vh;
   display: block;
   background-color: none;
 }
 
 .s3_right {
   width: 45%;
-  height: 100vh;
   background-color: none;
 }
 

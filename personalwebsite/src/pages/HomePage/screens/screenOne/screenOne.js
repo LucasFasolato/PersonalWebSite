@@ -1,76 +1,57 @@
-import React from 'react'
-import Navbar from '../../../../components/Navbar/navbar'
-import './screenOne.css'
-import ContactMeBttn from '../../../../components/ContactMeBttn/contactMeBttn'
-import SocialMediaLinks from '../../../../components/SocialMediaLinks/socialMediaLinks'
-import PhotoPerfil from './../../../../components/Imgs/PhotoPerfil.png'
+import React from "react";
+import Navbar from "../../../../components/Navbar/navbar";
+import "./screenOne.css";
+import KnowMoreBttn from "../../../../components/KnowMoreBttn/knowMoreBttn";
+import SocialMediaLinks from "../../../../components/SocialMediaLinks/socialMediaLinks";
 
 function screenOne() {
   return (
-    <div className='s1_size'>
-        <Navbar/>
-        <div className='s1_content' id='sobremi'>
-            <div className='s1_left'>
-              <div className='s1_left-content'>
-                <div className='s1_name-and-desc'  data-aos="zoom-in-right" data-aos-duration="500">
-                  {/* <div className='s1_name-content'>
-                    <section className='s1_name-section'>
-                      <h3 className='s1_h3'>Hello, I'm</h3>
-                      <h2 className='s1_h2'>Lucas Fasolato</h2>                      
-                      <h1 className='s1_h1'>Full Stack Developer</h1> 
-                    </section>
-                  </div> 
-                  <div className='s1_desc-content'>
-                    <p className='s1_desc-p'>
-                      I am a Full Stack developer with a Front-end orientation with the ability to develop web projects 
-                      always keeping in mind that they are scalable and modularizable to build as a team.
-                      <span className='s1_desc-span'>
-                        I consider myself a developer with very advanced and fast logic. 
-                        Able to face and solve problems with seriousness and discipline. 
-                        Especially a developer who wants to collaborate, teach and above all learn from others.
-                      </span>
-                    </p>
-                  </div>  */}
-                  <div className='s1_name-content'>
-                    <section className='s1_name-section'>
-                      <h3 className='s1_h3'>Hola! Mi nombre es</h3>
-                      <h2 className='s1_h2' >Lucas Fasolato</h2>                      
-                      <h1 className='s1_h1'>Desarrollador Full Stack</h1> 
-                    </section>
-                  </div> 
-                  <div className='s1_desc-content'>
-                    <p className='s1_desc-p'>
-                      Soy un desarrollador Full Stack con orientación hacia al Front-end con la habilidad de desarrollar proyectos web 
-                      contemplando siempre la escalabilidad y modularidad para desarrollar en equipo.
-                      <span className='s1_desc-span'>
-                        Me considero un desarrollador con una lógica avanzada y rápida,
-                        capaz de afrontar y resolver problemas con seriedad y disciplina.
-                        Tengo principal interés en colaborar, enseñar y sobre todo aprender de los demás.
-                      </span>
-                    </p>
-                  </div> 
-                </div>
-                
-                <div className='s1_button-and-social'data-aos="flip-right" data-aos-anchor-placement="bottom-bottom" 
-                  data-aos-duration="400" data-aos-delay="500">
-                  <div className='s1_button-content'>
-                    <ContactMeBttn/>
-                  </div>
-                  <div className='s1_social-content'>
-                    <SocialMediaLinks/> 
-                  </div>
-                </div>
-              </div>
+    <div className="s1_size">
+      <Navbar />
+      <div className="s1_content" id="sobremi">
+        <div className="s1_left">
+          <div
+            className="s1_name-and-desc"
+            data-aos="zoom-in-right"
+            data-aos-duration="500"
+          >
+            <div className="s1_name-content">
+              <section className="s1_name-section">
+                <h3 className="s1_h3">Hola! Mi nombre es</h3>
+                <h2 className="s1_h2">Lucas Fasolato</h2>
+                <h1 className="s1_h1">Desarrollador Full Stack</h1>
+              </section>
             </div>
-                
-            <div className='s1_right'>
-                <div className='s1_img-content' data-aos="fade-in" data-aos-duration="1200" data-aos-delay="500">
-                  <img className='s1_img' src={PhotoPerfil} alt="Imagen presentaciòn Lucas Fasolato"/>
-                </div>
-            </div>    
+            <div className="s1_desc-content">
+              <p className="s1_desc-p">
+                Actualmente trabajo como desarrollador Full Stack Jr en LBO SA y
+                desarrollo proyectos como Freelancer. Los frameworks que más
+                utilizo son React JS para el desarrollo frontend y Django
+                (Python) ó Nest JS (Javascript) para el desarrollo backend. Priorizo la escalabilidad y
+                las buenas prácticas en todos mis proyectos.
+                <span className="s1_desc-span">
+                  Trabajo a diario en mejorar mis habilidades y lógica a la hora
+                  de programar.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className="s1_button-and-social"
+            data-aos="flip-right"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="400"
+            data-aos-delay="500"
+          >
+            <div className="s1_button-content">
+              <KnowMoreBttn />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default screenOne
+export default screenOne;

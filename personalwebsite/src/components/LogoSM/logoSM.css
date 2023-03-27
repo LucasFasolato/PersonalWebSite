@@ -4,24 +4,27 @@
   padding: 0;
   margin: 0;
   background-color: none;
-  z-index: 3000;
 }
-
-.logo_button {
-  width: 100%;
+.logo_content > a {
+  display: flex;
   height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+.logo_button {
+  height: 80%;
+  width: max-content;
   padding: 0;
   margin: 0;
-  overflow: hidden;
-  background-color: #25262a;;
   border: none;
-  cursor: pointer;
-  z-index: 3000;
+  background-color: #1B262C;
 }
+
 
 .logo_img {
   height: 100%;
   width: auto;
-  background-color: none;
-  z-index: 3000;
+  cursor: pointer;
 }

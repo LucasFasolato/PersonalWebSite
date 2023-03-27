@@ -8,8 +8,7 @@
   font-weight: 600;
   font-size: 20px;
   color: #f8f8ff;
-  /* background-color: #2c69a5; */
-  background-color: #282c34;
+  background-color: #2c69a5;
   border: none;
   cursor: pointer;
   transition: all 0.5s;
@@ -18,8 +17,8 @@
   text-decoration: none;
 }
 .s1_button:hover {
-  color: #ffffff;
-  background-color: #060a12;
+  color: #000000;
+  background-color: #f8f8ff;
 }
 
 @media screen and (max-width: 1265px) {

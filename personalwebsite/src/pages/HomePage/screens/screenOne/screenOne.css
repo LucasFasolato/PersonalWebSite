@@ -19,7 +19,7 @@ h6 {
   height: 100vh;
   /* background-color: #1c1c1c; */
   /* background-color: #3d3d3d; */
-  background-color: #25262a;
+  /* background-color: #1B262C; */
 }
 
 .s1_content {
@@ -27,31 +27,17 @@ h6 {
   padding: 0;
   margin: 0 auto;
   width: 80%;
-  height: 95%;
-  background-color: none;
-  z-index: 10;
+  height: 92%;
+  align-items: center;
+  justify-content: center;
 }
 
 .s1_left {
   position: relative;
-  width: 60%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   background-color: none;
   display: block;
-}
-
-.s1_left-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: max-content;
-  max-height: 100%;
-  width: 100%;
-  display: block;
-  margin: auto 0;
-  background-color: none;
 }
 
 .s1_name-and-desc {
@@ -89,11 +75,13 @@ h6 {
 .s1_h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   margin-top: -1%;
   padding: 0;
   color: #f8f8ff;
+  /* color: #3282B8; */
+  /* color: #BBE1FA; */
   background-color: none;
   height: max-content;
 }
@@ -101,7 +89,7 @@ h6 {
 .s1_h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 500;
   margin: auto;
   margin-top: -1%;
   padding: 0;
@@ -119,11 +107,13 @@ h6 {
 .s1_desc-p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   margin: auto;
   padding: 0 6% 0 0;
-  color: #a6d4f2;
+  color: #f8f8ff;
   background-color: none;
+  letter-spacing: 0.1em;
+  line-height: 28px;
 }
 .s1_desc-span {
   display: block;
@@ -153,8 +143,7 @@ h6 {
   width: 40%;
   height: 100%;
   background-color: none;
-  margin-top: -0.06%;
-  z-index: 15;
+  overflow: hidden;
 }
 
 .s1_img-content {
@@ -178,8 +167,8 @@ h6 {
   display: block;
   margin: auto;
   height: 100%;
-  z-index: 1;
 }
+
 
 @media screen and (max-width: 1325px) {
   .s1_size {

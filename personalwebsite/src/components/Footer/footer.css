@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
   background-color: #25262a;
+  /* background-color: #b4b4bb; */
 }
 
 .footer_content {
@@ -12,7 +13,7 @@
   margin: 0 auto;
   align-items: center;
   max-width: 80%;
-  color: #f8f8ff;
+  /* color: #f8f8ff; */
 }
 .footer_area {
   width: 33%;
