@@ -1,17 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-style: normal;
-  font-family: "Georgia", Helvetica, sans-serif;
-  letter-spacing: 0;
-  font-weight: 600;
-  margin-top: 0.2em;
-  text-rendering: optimizeSpeed;
-}
-
 .s1_size {
   margin: 0;
   padding: 0;
@@ -33,10 +19,28 @@ h6 {
 }
 
 .s1_left {
-  position: relative;
+  width: 50%;
+  height: max-content;
+} 
+
+.s1_right {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s1_right_img {
+  width: max-content;
+  height: 90%;
+}
+
+
+.s1_content-box {
   width: 80%;
-  height: 80%;
-  background-color: none;
+  height: max-content;
   display: block;
 }
 
@@ -55,17 +59,10 @@ h6 {
   align-items: center;
 }
 
-.s1_name-section {
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  background-color: none;
-}
-
 .s1_h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
   font-size: 24px;
-  font-weight: 600;
   margin: 0;
   padding: 0;
   color: #a6d4f2;
@@ -73,29 +70,30 @@ h6 {
 }
 
 .s1_h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  margin: 0;
-  margin-top: -1%;
+  /* font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 400; */
+
+  /* font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 400; */
+  /* font-family: tondu, sans-serif; */
+  font-family: 'Archivo', sans-serif;
+  font-size: 68px;
+  font-weight: 600;
+  margin: 0.5vw 0;
   padding: 0;
   color: #f8f8ff;
-  /* color: #3282B8; */
-  /* color: #BBE1FA; */
-  background-color: none;
-  height: max-content;
 }
 
 .s1_h1 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 56px;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-size: 32px;
   font-weight: 500;
   margin: auto;
-  margin-top: -1%;
   padding: 0;
   color: #f8f8ff;
-  background-color: none;
-  height: max-content;
 }
 .s1_desc-content {
   width: 100%;
@@ -105,9 +103,9 @@ h6 {
 }
 
 .s1_desc-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
   margin: auto;
   padding: 0 6% 0 0;
   color: #f8f8ff;
@@ -138,13 +136,6 @@ h6 {
   background-color: none;
 }
 
-.s1_right {
-  position: relative;
-  width: 40%;
-  height: 100%;
-  background-color: none;
-  overflow: hidden;
-}
 
 .s1_img-content {
   width: 100%;
@@ -183,17 +174,6 @@ h6 {
     margin: 0 auto;
     width: 80%;
   }
-
-  .s1_left {
-    position: relative;
-    width: 100%;
-    top: 0;
-  }
-
-  .s1_right {
-    display: none;
-  }
-
   .s1_button-and-social {
     display: flex;
   }

@@ -29,7 +29,7 @@ function AppWrapper() {
         type: "circle",
       },
       opacity: {
-        value: 0.5,
+        value: 0.8,
       },
       size: {
         value: { min: 1, max: 4 },
@@ -52,7 +52,8 @@ function AppWrapper() {
     },
     background: {
       color: {
-        value: "#121121",
+        // value: "#121121",
+        value: "#061b25",
         // value: "#212121",
       },
     },
