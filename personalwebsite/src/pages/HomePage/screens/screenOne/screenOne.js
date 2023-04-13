@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../../../../components/Navbar/navbar";
 import "./screenOne.css";
-import KnowMoreBttn from "../../../../components/KnowMoreBttn/knowMoreBttn";
 import FantasmitaReact from "./../../../../components/Imgs/react-blanco__.png";
+import ButtonKnowMore from "../../../../components/ButtonKnowMore/buttonKnowMore";
 
 function screenOne() {
   return (
@@ -24,18 +24,8 @@ function screenOne() {
               </div>
               <div className="s1_desc-content">
                 <p className="s1_desc-p">
-                  {/* Actualmente trabajo como desarrollador Full Stack Jr en LBO SA
-                  y desarrollo proyectos como Freelancer.  */}
-                  {/* Los frameworks que más utilizo son React JS para el desarrollo
-                  frontend y Django (Python) ó Nest JS (Javascript) para el
-                  desarrollo backend. Priorizo la escalabilidad y las buenas
-                  prácticas en todos mis proyectos.  */}
                   Trabajo con React JS para el desarrollo frontend y Django
                   (Python) ó Nest JS (Javascript) para el desarrollo backend.
-                  <span className="s1_desc-span">
-                    {/* Trabajo a diario en mejorar mis habilidades y lógica a la
-                    hora de programar. */}
-                  </span>
                 </p>
               </div>
             </div>
@@ -48,7 +38,7 @@ function screenOne() {
               data-aos-delay="500"
             >
               <div className="s1_button-content">
-                <KnowMoreBttn />
+                <ButtonKnowMore />
               </div>
             </div>
           </div>

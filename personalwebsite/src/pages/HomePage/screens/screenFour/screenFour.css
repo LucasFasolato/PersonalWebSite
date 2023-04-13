@@ -57,6 +57,8 @@
   width: 50%;
   height: 10vh;
   margin: 3% auto;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1150px)  {

@@ -1,0 +1,14 @@
+text for screen one 
+
+Actualmente trabajo como desarrollador Full Stack Jr en LBO SA
+y desarrollo proyectos como Freelancer.  
+Los frameworks que más utilizo son React JS para el desarrollo
+frontend y Django (Python) ó Nest JS (Javascript) para el
+desarrollo backend. Priorizo la escalabilidad y las buenas
+prácticas en todos mis proyectos.  
+
+<span className="s1_desc-span">
+    {/* Trabajo a diario en mejorar mis habilidades y lógica a la
+    hora de programar. */}
+</span>
+

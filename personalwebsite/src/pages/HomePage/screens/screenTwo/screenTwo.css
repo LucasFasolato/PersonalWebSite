@@ -44,7 +44,7 @@
 }
 
 .s2_h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 32px;
   font-weight: 600;
   margin: 0;
@@ -83,7 +83,7 @@
 }
 
 .s2_h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 56px;
   font-weight: 700;
   margin: 0;
@@ -92,7 +92,7 @@
 }
 
 .s2_p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 18px;
   font-weight: 400;
   padding: 0 5vh;
@@ -107,7 +107,7 @@
 }
 
 .s2_h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -125,7 +125,6 @@
     height: max-content;
   }
   .s2_h1 {
-    font-family: "Open Sans", sans-serif;
     font-size: 42px;
     font-weight: 700;
     margin: 0;
@@ -161,7 +160,6 @@
   }
 
   .s2_h2 {
-    font-family: "Open Sans", sans-serif;
     font-size: 24px;
   }
   .s2_left {
@@ -196,7 +194,6 @@
 
 @media screen and (max-width: 830px)  {
   .s2_p {
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 0 5vh;
